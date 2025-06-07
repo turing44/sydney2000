@@ -272,7 +272,7 @@ This site can be deployed to any static hosting platform:
 
 ## Recent Updates
 
-### Version 2.0 Changes
+### Version 1.0 Changes
 - **Improved Image Organization**: Moved all images to `/uploads/` directory for better CMS integration
 - **Enhanced UI Components**: Added hover states, transitions, and micro-interactions
 - **Built-in Church Icon**: Integrated custom SVG church icon throughout the site

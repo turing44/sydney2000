@@ -325,6 +325,12 @@ on our GitHub repository.
 
 For questions, issues, or contributions, please visit our GitHub repository or contact the development team.
 
+## Donate
+
+Love our work? 
+
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/kodester/)
+
 ---
 
 Created with ❤️ for church communities worldwide

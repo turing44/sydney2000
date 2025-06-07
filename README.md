@@ -270,26 +270,6 @@ This site can be deployed to any static hosting platform:
 
 3. Run `npm run deploy`
 
-## Recent Updates
-
-### Version 1.0 Changes
-- **Improved Image Organization**: Moved all images to `/uploads/` directory for better CMS integration
-- **Enhanced UI Components**: Added hover states, transitions, and micro-interactions
-- **Built-in Church Icon**: Integrated custom SVG church icon throughout the site
-- **Better Content Structure**: Simplified content collections and improved schemas
-- **Staff Page**: Added dedicated staff page with improved navigation
-- **Enhanced Accessibility**: Improved ARIA labels and keyboard navigation
-- **Performance Optimizations**: Better image handling and loading strategies
-- **Modern Design**: Updated color schemes and improved visual hierarchy
-
-### Technical Improvements
-- Fixed content collection schema validation errors
-- Improved file organization and structure
-- Enhanced responsive design with better breakpoints
-- Added comprehensive filtering for sermons and blog posts
-- Improved SEO with better meta tags and structured data
-- Enhanced form handling and user interactions
-
 ## Browser Support
 
 - Chrome (latest)

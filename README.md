@@ -20,7 +20,7 @@ A modern, fast, and SEO-friendly church website starter template built with Astr
 ```
 maucariapacom-church-starter/
 ├── public/
-│   ├── uploads/          # Images managed by CMS (staff, events, sermons, etc.)
+│   ├── uploads/          # Images directories (staff, events, sermons, etc.)
 │   │   ├── staff/        # Staff profile images
 │   │   ├── events/       # Event images
 │   │   ├── sermons/      # Sermon thumbnail images
@@ -324,6 +324,12 @@ on our GitHub repository.
 ## Support
 
 For questions, issues, or contributions, please visit our GitHub repository or contact the development team.
+
+## Donate
+
+Love our work? 
+
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/kodester/)
 
 ---
 

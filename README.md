@@ -301,14 +301,7 @@ This site can be deployed to any static hosting platform:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Known Bugs / Issues
-
-This starter template is actively under development, and while we strive for a polished experience, there are a
-few known minor issues we are working on. Your contributions to fixing these or reporting new ones are highly
-welcome!
-
--   **Mobile Menu Contrast:** The mobile navigation menu currently has a dark background that may not provide
-    sufficient color contrast with the menu items, making them hard to read in some lighting conditions.
+## Bugs / Issues
 
 We appreciate your understanding and encourage you to report any new bugs you find by
 [opening an issue](https://github.com/MauCariApa-com/maucariapacom-church-starter/issues)

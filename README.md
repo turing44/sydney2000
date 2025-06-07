@@ -20,7 +20,7 @@ A modern, fast, and SEO-friendly church website starter template built with Astr
 ```
 maucariapacom-church-starter/
 ├── public/
-│   ├── uploads/          # Images managed by CMS (staff, events, sermons, etc.)
+│   ├── uploads/          # Images directories (staff, events, sermons, etc.)
 │   │   ├── staff/        # Staff profile images
 │   │   ├── events/       # Event images
 │   │   ├── sermons/      # Sermon thumbnail images

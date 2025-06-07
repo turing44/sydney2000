@@ -1,0 +1,130 @@
+---
+// Define the navigation items
+const navItems = [
+  { text: "Home", href: "/" },
+  { text: "About Us", href: "/about-us" },
+  { text: "Staff", href: "/staff" },
+  { text: "Ministries", href: "/ministries" },
+  { text: "Sermons", href: "/sermons" },
+  { text: "Events", href: "/events" },
+  { text: "Blog", href: "/blog" },
+  { text: "I'm New", href: "/im-new" },
+  { text: "Contact", href: "/contact" },
+  { text: "Giving", href: "/giving" },
+];
+
+// Get the current URL path to highlight the active link
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="hidden md:block">
+  <ul class="flex items-center space-x-6">
+    {
+      navItems.map((item) => {
+        const isActive = currentPath === item.href || 
+                         (item.href !== "/" && currentPath.startsWith(item.href));
+        
+        return (
+          <li>
+            <a
+              href={item.href}
+              class={`text-base font-medium transition-colors hover:text-primary-600 ${
+                isActive ? "text-primary-600" : "text-gray-700"
+              }`}
+              aria-current={isActive ? "page" : undefined}
+            >
+              {item.text}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</nav>
+
+<!-- Mobile Menu Button -->
+<button
+  id="mobile-menu-button"
+  class="md:hidden p-2 text-gray-700 hover:text-primary-600 focus:outline-none"
+  aria-label="Toggle Menu"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+
+<!-- Mobile Menu -->
+<div
+  id="mobile-menu"
+  class="fixed inset-0 z-50 hidden bg-white transform transition-transform duration-300 ease-in-out"
+>
+  <div class="container h-full flex flex-col">
+    <div class="flex justify-between items-center py-4">
+      <a href="/" class="text-2xl font-bold text-primary-800 font-serif flex items-center">
+        <span class="sr-only">Church Name</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="h-12 w-auto text-primary-600 mr-2">
+          <path fill="currentColor" d="M344 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 24-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 46.4L183.3 210c-14.5 8.7-23.3 24.3-23.3 41.2L160 512l96 0 0-96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 96 96 0 0-260.8c0-16.9-8.8-32.5-23.3-41.2L344 142.4 344 96l32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0 0-24zM24.9 330.3C9.5 338.8 0 354.9 0 372.4L0 464c0 26.5 21.5 48 48 48l80 0 0-238.4L24.9 330.3zM592 512c26.5 0 48-21.5 48-48l0-91.6c0-17.5-9.5-33.6-24.9-42.1L512 273.6 512 512l80 0z"/>
+        </svg>
+        <span class="text-primary-800">Church Name</span>
+      </a>
+      
+      <button
+        id="mobile-menu-close"
+        class="p-2 text-gray-700 hover:text-primary-600 focus:outline-none"
+        aria-label="Close Menu"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    
+    <ul class="flex-grow flex flex-col items-center justify-center space-y-6 text-center">
+      {
+        navItems.map((item) => {
+          const isActive = currentPath === item.href || 
+                           (item.href !== "/" && currentPath.startsWith(item.href));
+          
+          return (
+            <li>
+              <a
+                href={item.href}
+                class={`text-xl font-medium transition-colors hover:text-primary-600 ${
+                  isActive ? "text-primary-600" : "text-gray-700"
+                }`}
+                aria-current={isActive ? "page" : undefined}
+              >
+                {item.text}
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</div>
+
+<script>
+  // Wait for the DOM to be fully loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenuClose = document.getElementById('mobile-menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    // Function to toggle the mobile menu
+    const toggleMobileMenu = () => {
+      mobileMenu?.classList.toggle('hidden');
+      document.body.classList.toggle('overflow-hidden');
+    };
+    
+    // Add event listeners
+    mobileMenuButton?.addEventListener('click', toggleMobileMenu);
+    mobileMenuClose?.addEventListener('click', toggleMobileMenu);
+    
+    // Close menu when clicking a link
+    const mobileLinks = mobileMenu?.querySelectorAll('a');
+    mobileLinks?.forEach(link => {
+      link.addEventListener('click', toggleMobileMenu);
+    });
+  });
+</script>

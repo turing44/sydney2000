@@ -27,7 +27,7 @@ const speakers = [...new Set(sermons.map(sermon => sermon.data.speaker))];
   <PageHeader 
     title="Sermons" 
     subtitle="Listen to or watch our latest messages"
-    backgroundImage="/uploads/sermons-header-bg.jpg"
+    backgroundImage="/uploads/sermons-header-bg.webp"
   />
   
   <!-- Sermons List -->
@@ -128,7 +128,7 @@ const speakers = [...new Set(sermons.map(sermon => sermon.data.speaker))];
               <Card
                 title={sermon.data.title}
                 image={{
-                  src: sermon.data.image || "/uploads/sermon-placeholder.jpg",
+                  src: sermon.data.image || "/uploads/sermon-placeholder.webp",
                   alt: sermon.data.title
                 }}
                 href={`/sermons/${sermon.slug}`}

@@ -6,7 +6,7 @@ series: "Worship in Spirit and Truth"
 scripture: "John 4:23-24"
 audioUrl: "https://example.com/sermons/power-of-worship.mp3"
 videoUrl: "https://www.youtube.com/embed/example456"
-image: "/uploads/sermons/power-of-worship.jpg"
+image: "/uploads/sermons/power-of-worship.webp"
 summary: "Explore the true meaning of worship and how it transforms our relationship with God beyond just musical expression."
 tags: ["worship", "spiritual growth", "music"]
 draft: false

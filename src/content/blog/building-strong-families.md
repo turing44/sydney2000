@@ -5,7 +5,7 @@ pubDate: 2025-01-20
 description: "Explore practical biblical principles that can strengthen family relationships and create a Christ-centered home environment."
 author: "Rev. Sarah Martinez"
 image: {
-  url: "/uploads/blog/building-strong-families.jpg",
+  url: "/uploads/blog/building-strong-families.webp",
   alt: "Happy family reading together"
 }
 tags: ["family", "parenting", "relationships"]

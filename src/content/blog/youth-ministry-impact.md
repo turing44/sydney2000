@@ -5,7 +5,7 @@ pubDate: 2025-01-10
 description: "Discover how our youth ministry is making a difference in young lives and how you can support the next generation of believers."
 author: "Rev. Michael Johnson"
 image: {
-  url: "/uploads/blog/youth-ministry-impact.jpg",
+  url: "/uploads/blog/youth-ministry-impact.webp",
   alt: "Youth group in discussion"
 }
 tags: ["youth", "ministry", "next generation"]

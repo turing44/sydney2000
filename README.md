@@ -93,7 +93,7 @@ All content is stored in Markdown (`.md`) files in the `src/content/` directory.
 ---
 name: "John Smith"
 title: "Youth Pastor"
-image: "/uploads/staff/john-smith.jpg"
+image: "/uploads/staff/john-smith.webp"
 email: "john@example.com"
 phone: "+1-555-1234"
 bio: "John has been serving in youth ministry for 10 years."
@@ -116,7 +116,7 @@ date: 2025-07-15
 endDate: 2025-07-20
 time: "9:00 AM - 5:00 PM"
 location: "Camp Wilderness"
-image: "/uploads/events/summer-camp.jpg"
+image: "/uploads/events/summer-camp.webp"
 summary: "A week-long adventure for teens to grow in faith and have fun!"
 tags: ["youth", "summer", "camp"]
 registrationRequired: true
@@ -143,7 +143,7 @@ series: "Faith Foundations"
 scripture: "Proverbs 3:5-6"
 audioUrl: "https://example.com/sermons/walking-in-faith.mp3"
 videoUrl: "https://www.youtube.com/embed/example789"
-image: "/uploads/sermons/walking-in-faith.jpg"
+image: "/uploads/sermons/walking-in-faith.webp"
 summary: "Learn how to trust God completely and walk confidently in His plan."
 tags: ["faith", "trust", "guidance"]
 draft: false

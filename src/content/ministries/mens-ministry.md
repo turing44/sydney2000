@@ -1,7 +1,7 @@
 ---
 name: "Men's Ministry"
 slug: "mens-ministry"
-logo: "/uploads/ministries/mens-ministry-logo.jpg"
+logo: "/uploads/ministries/mens-ministry-logo.webp"
 summary: "Building strong Christian men through fellowship, discipleship, and service opportunities that strengthen faith and character."
 coordinator: "Robert Johnson"
 contact: "mens@churchname.org"

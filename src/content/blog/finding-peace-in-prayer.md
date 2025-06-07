@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 description: "Discover how establishing a daily prayer routine can bring peace and spiritual growth to your life."
 author: "Pastor John Doe"
 image: {
-  url: "/uploads/blog/finding-peace-in-prayer.jpg",
+  url: "/uploads/blog/finding-peace-in-prayer.webp",
   alt: "Person praying with Bible and journal"
 }
 tags: ["prayer", "devotional", "spiritual growth"]

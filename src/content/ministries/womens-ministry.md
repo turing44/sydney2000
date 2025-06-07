@@ -1,7 +1,7 @@
 ---
 name: "Women's Ministry"
 slug: "womens-ministry"
-logo: "/uploads/ministries/womens-ministry-logo.jpg"
+logo: "/uploads/ministries/womens-ministry-logo.webp"
 summary: "Empowering women to grow in faith, build meaningful relationships, and serve God with their unique gifts and calling."
 coordinator: "Rev. Sarah Martinez"
 contact: "women@churchname.org"

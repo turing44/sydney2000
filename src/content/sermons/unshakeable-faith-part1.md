@@ -6,7 +6,7 @@ series: "Unshakeable Faith"
 scripture: "Daniel 3:16-18"
 audioUrl: "https://example.com/sermons/unshakeable-faith-part1.mp3"
 videoUrl: "https://www.youtube.com/embed/example123"
-image: "/uploads/sermons/unshakeable-faith-1.jpg"
+image: "/uploads/sermons/unshakeable-faith-1.webp"
 summary: "Discover how to maintain strong faith during life's challenges through the example of Shadrach, Meshach, and Abednego."
 tags: ["faith", "persecution", "trust", "youth"]
 draft: false

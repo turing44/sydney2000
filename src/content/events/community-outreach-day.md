@@ -4,7 +4,7 @@ date: 2025-03-15
 endDate: 2025-03-15
 time: "9:00 AM - 3:00 PM"
 location: "Various Community Locations"
-image: "/uploads/events/community-outreach-day.jpg"
+image: "/uploads/events/community-outreach-day.webp"
 summary: "Join us for a day of service as we reach out to our community with practical help and God's love."
 tags: ["outreach", "service", "community"]
 registrationRequired: true

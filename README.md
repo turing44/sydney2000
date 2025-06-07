@@ -1,6 +1,6 @@
 # maucariapacom-church-starter
 
-A modern, fast, and SEO-friendly church website starter template built with Astro, focusing on Pure Static Site Generation (SSG) with content managed through Markdown/MDX files.
+An open-source starter template for building high-performance, content-driven church websites with Astro. Pure SSG, SEO-ready, built with Tailwind CSS, Markdown content, ready to integrate with any CMS
 
 ## Features
 

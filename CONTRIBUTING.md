@@ -22,7 +22,7 @@ Whether you're fixing a bug, improving documentation, adding a new feature, or s
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [info@maucariapa.com].
+This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to info@maucariapa.com.
 
 ## How Can I Contribute?
 

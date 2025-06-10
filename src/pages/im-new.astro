@@ -247,54 +247,79 @@ import Button from "../components/UI/Button.astro";
   
   <!-- FAQ Section -->
   <section id="faq" class="py-16 bg-gray-50">
-    <div class="container">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Answers to common questions from first-time visitors
-        </p>
-      </div>
-      
-      <div class="max-w-4xl mx-auto">
-        <div class="space-y-6">
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-bold mb-2">Where do I go when I arrive?</h3>
-            <p class="text-gray-700">
-              When you arrive, look for our welcome team members wearing blue name tags. They'll greet you, help you check in your children if needed, and direct you to the sanctuary or any other areas you'd like to visit.
-            </p>
-          </div>
-          
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-bold mb-2">Will I be asked to stand up or introduce myself?</h3>
-            <p class="text-gray-700">
-              No, we won't single you out or ask you to stand up. We want you to feel comfortable, not put on the spot. We do have a welcome card in the service bulletin if you'd like to share your information with us.
-            </p>
-          </div>
-          
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-bold mb-2">Is there a coffee hour or fellowship time?</h3>
-            <p class="text-gray-700">
-              Yes! We have coffee, tea, and light refreshments available before and after each service in our fellowship hall. It's a great opportunity to meet people and ask any questions you might have.
-            </p>
-          </div>
-          
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-bold mb-2">Do you have facilities for nursing mothers?</h3>
-            <p class="text-gray-700">
-              Yes, we have a comfortable, private nursing mothers' room adjacent to the nursery. It's equipped with changing facilities, comfortable seating, and a live audio feed of the service.
-            </p>
-          </div>
-          
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-bold mb-2">How do I get connected beyond Sunday services?</h3>
-            <p class="text-gray-700">
-              The best way to get connected is through our small groups and ministry teams. Visit our welcome center after the service, and we'll help you find the right fit. You can also attend our "New to Church Name" class, offered monthly.
-            </p>
-          </div>
-        </div>
+  <div class="container">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        Answers to common questions from first-time visitors
+      </p>
+    </div>
+
+    <div class="max-w-4xl mx-auto">
+      <div class="space-y-4">
+        <details class="group bg-white p-6 rounded-lg shadow-sm">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <h3 class="text-xl font-bold">Where do I go when I arrive?</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-200 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-4 text-gray-700">
+            When you arrive, look for our welcome team members wearing blue name tags. They'll greet you, help you check in your children if needed, and direct you to the sanctuary or any other areas you'd like to visit.
+          </p>
+        </details>
+
+        <details class="group bg-white p-6 rounded-lg shadow-sm">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <h3 class="text-xl font-bold">Will I be asked to stand up or introduce myself?</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-200 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-4 text-gray-700">
+            No, we won't single you out or ask you to stand up. We want you to feel comfortable, not put on the spot. We do have a welcome card in the service bulletin if you'd like to share your information with us.
+          </p>
+        </details>
+
+        <details class="group bg-white p-6 rounded-lg shadow-sm">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <h3 class="text-xl font-bold">Is there a coffee hour or fellowship time?</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-200 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-4 text-gray-700">
+            Yes! We have coffee, tea, and light refreshments available before and after each service in our fellowship hall. It's a great opportunity to meet people and ask any questions you might have.
+          </p>
+        </details>
+
+        <details class="group bg-white p-6 rounded-lg shadow-sm">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <h3 class="text-xl font-bold">Do you have facilities for nursing mothers?</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-200 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-4 text-gray-700">
+            Yes, we have a comfortable, private nursing mothers' room adjacent to the nursery. It's equipped with changing facilities, comfortable seating, and a live audio feed of the service.
+          </p>
+        </details>
+
+        <details class="group bg-white p-6 rounded-lg shadow-sm">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <h3 class="text-xl font-bold">How do I get connected beyond Sunday services?</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-200 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </summary>
+          <p class="mt-4 text-gray-700">
+            The best way to get connected is through our small groups and ministry teams. Visit our welcome center after the service, and we'll help you find the right fit. You can also attend our "New to Church Name" class, offered monthly.
+          </p>
+        </details>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   
   <!-- Plan Your Visit CTA -->
   <section id="volunteer" class="py-20 bg-cover bg-center text-white"

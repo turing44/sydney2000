@@ -71,3 +71,15 @@
     @apply overflow-hidden transition-all bg-white rounded-lg shadow-md hover:shadow-lg;
   }
 }
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary svg {
+  transition: transform 0.2s ease;
+}
+
+details[open] > summary svg {
+  transform: rotate(45deg);
+}

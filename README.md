@@ -5,7 +5,7 @@ An open-source starter template for building high-performance, content-driven ch
 ## Demo and Screenshot
 ![Home Page](https://imgs.maucariapa.com/uploads/452546054-84337aa6-eea8-4879-9461-d2e7d3665aee.png)
 
-[Demo URL](https://maucariapacom-church-starter.pages.dev/)
+Demo URL: [https://maucariapacom-church-starter.pages.dev](https://maucariapacom-church-starter.pages.dev/)
 
 ## Features
 

@@ -14,54 +14,6 @@ const staffCollection = defineCollection({
   }),
 });
 
-const eventsCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    date: z.date(), // Event start date
-    endDate: z.date().optional(), // Event end date
-    time: z.string().optional(), // e.g., "09:00 AM - 11:00 AM"
-    location: z.string(),
-    image: z.string().startsWith('/uploads/events/'),
-    summary: z.string(),
-    tags: z.array(z.string()).optional(),
-    registrationLink: z.string().url().optional(),
-    registrationRequired: z.boolean().default(false),
-    draft: z.boolean().default(false),
-  }),
-});
-
-const sermonsCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    slug: z.string().optional(), // Auto-generated if not provided
-    date: z.date(),
-    speaker: z.string(),
-    series: z.string().optional(),
-    scripture: z.string().optional(),
-    audioUrl: z.string().url().optional(),
-    videoUrl: z.string().url().optional(),
-    image: z.string().startsWith('/uploads/sermons/').optional(), // Thumbnail
-    summary: z.string().optional(),
-    tags: z.array(z.string()).optional(),
-    draft: z.boolean().default(false),
-  }),
-});
-
-const ministriesCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    name: z.string(),
-    logo: z.string().startsWith('/uploads/ministries/').optional(),
-    summary: z.string(),
-    coordinator: z.string().optional(),
-    contact: z.string().optional(), // Email or text
-    schedule: z.string().optional(),
-    order: z.number().optional(),
-    draft: z.boolean().default(false),
-  }),
-});
 
 const blogCollection = defineCollection({
   type: 'content',
@@ -89,9 +41,6 @@ const siteInfoCollection = defineCollection({
 
 export const collections = {
   staff: staffCollection,
-  events: eventsCollection,
-  sermons: sermonsCollection,
-  ministries: ministriesCollection,
   blog: blogCollection,
   siteInfo: siteInfoCollection,
 };

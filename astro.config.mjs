@@ -2,10 +2,14 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import netlify from "@astrojs/netlify";
+
+
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com', // Replace with your site URL
+  output: "server", // o "static", según tu caso
+  adapter: netlify(),
   integrations: [
     tailwind(),
     sitemap(),
@@ -17,3 +21,4 @@ export default defineConfig({
     }
   }
 });
+

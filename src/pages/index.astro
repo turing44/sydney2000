@@ -1,17 +1,21 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import HeroSection from "../components/Sections/HeroSection.astro";
-import EventList from "../components/Sections/EventList.astro";
-import SermonList from "../components/Sections/SermonList.astro";
-import Button from "../components/UI/Button.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import HeroSection from "@components/Sections/HeroSection.astro";
+import siteInfo from "@content/siteInfo.ts";
+import Premios from "@/components/Sections/Premios.astro";
 ---
 
 <BaseLayout>
   <HeroSection
-    title="C.D. Sydney 2000"
-    subtitle="Escuela de gimnasia rítmica con mas de 25 años de experiencia"
+    title={siteInfo.titulo}
+    subtitle={siteInfo.description}
     backgroundImage="/uploads/hero-bg.webp"
     ctaText="Únete"
     ctaLink="/"
   />
+
+  <Premios />
+
+ 
+
 </BaseLayout>

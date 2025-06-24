@@ -1,0 +1,21 @@
+---
+import listaPremios from "@content/premios.ts"
+import Card from "@components/UI/Card.astro"
+
+const premios = listaPremios;
+---
+
+<h1 class="text-center p-4 mt-9 m-6">Premios</h1>
+
+{
+    premios.map(premio => (
+        <div class="p-3">
+            <Card
+                titulo={premio.titulo}
+                descripcion={premio.descripcion}
+                link={premio.link}
+            />      
+        </div>
+    
+    ))    
+}

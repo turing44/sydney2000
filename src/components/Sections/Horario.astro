@@ -1,0 +1,16 @@
+---
+const {centro} = Astro.props;
+---
+
+<div>
+    <h3 class="font-semibold mb-1">Horario:</h3>
+    <ul class="text-sm grid grid-cols-1 gap-y-1">
+        <li><strong>Lunes:</strong> {centro.horario.lunes}</li>
+        <li><strong>Martes:</strong> {centro.horario.martes}</li>
+        <li><strong>Miércoles:</strong> {centro.horario.miercoles}</li>
+        <li><strong>Jueves:</strong> {centro.horario.jueves}</li>
+        <li><strong>Viernes:</strong> {centro.horario.viernes}</li>
+        <li><strong>Sábado:</strong> {centro.horario.sabado}</li>
+        <li><strong>Domingo:</strong> {centro.horario.domingo}</li>
+    </ul>
+</div>

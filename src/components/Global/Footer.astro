@@ -1,12 +1,21 @@
 ---
-
+import siteInfo from "@/content/siteInfo"
 ---
+
+
 
 <footer class="bg-gray-900 text-white ">
   <div class="flex flex-col gap-5 m-9">
     <p class="font-bold text-xl">Contacto</p>
-  
-    <a href="tel:666 666 666">888 888 888</a>
+
+    <div class="flex flex-col gap-5 ml-10">
+      <a href={`tel:${siteInfo.telf}`}>📞 {siteInfo.telf}</a>
+      <a href={`mailto:${siteInfo.mail}`}>✉️ {siteInfo.mail}</a>
+
+      <p>Horario de atención {siteInfo.horario_atencion}</p>
+
+    </div>
+    
   </div>
   <p></p>
 </footer>

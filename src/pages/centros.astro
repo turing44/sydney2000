@@ -10,20 +10,17 @@ import Horario from "@/components/Sections/Horario.astro";
     <div class="flex flex-col">
         <h1 class="text-center m-3 mt-6">Centros</h1>
         {
-            listaCentros.map((centro) => (
+            listaCentros.map(centro => (
                 <div class="shadow-md m-3 bg-white rounded-xl flex flex-col">
-                    <img class=" w-full rounded-xl" src={centro.imagen} alt="">
                     <div class="m-2 p-6 w-auto text-left">
                         <h2>{centro.nombre}</h2>
-                        <p>{centro.direccion}</p>   
-                        <br>
-
-                        <!-- Ella usa google maps? -->
+                        <a href={centro.linkMaps}>📍 {centro.direccion}</a>   
+                        <br><br>
                         <Horario centro={centro}/>
                     </div>
             
                 </div>
-            )
+                )
             )
         }
     </div>

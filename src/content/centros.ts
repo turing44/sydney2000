@@ -3,7 +3,8 @@ export interface Centro {
     direccion: string,
     linkMaps: string,
     imagen: string,
-    horario: Object
+    horario: Object,
+    mensualidad: string
 };
 
 const listaCentros: Centro[] = [
@@ -16,7 +17,19 @@ const listaCentros: Centro[] = [
             "Lunes y Miercoles": "16:00 - 17:30",
             "Martes y Jueves": "16:00 - 17:30",
             "Viernes": "16:00 - 18:00"
-        }
+        },
+        mensualidad: "26,50"
+    },
+    {
+        nombre: "Centro Deportivo Alcosa",
+        direccion: "Av. de Seneca, 1",
+        linkMaps: "https://maps.app.goo.gl/V1f8S1pjUxeSXD1a9",
+        imagen: "",
+        horario: {
+            "Grupo 1 Lunes y Miercoles": "16:00 - 17:30",
+            "Grupo 2 Lunes y Miercoles": "17:30 - 19:00"
+        }, 
+        mensualidad: "25,00"
     },
     {
         nombre: "Escuela San Pablo",
@@ -25,16 +38,18 @@ const listaCentros: Centro[] = [
         imagen: "",
         horario: {
             "Lunes y Miercoles": "16:00 - 17:30",
-        }
+        },
+        mensualidad: "25,00"
     },
     {
-        nombre: "Escuela Sevilla Este",
+        nombre: "Escuela IES Miguel Servet",
         direccion: "Calle Cueva de la Pileta S/N",
-        linkMaps: "https://maps.app.goo.gl/mVUNz1TArSAL8YKu7",
+        linkMaps: "https://maps.app.goo.gl/cF5FX4SvevUEVUfq9",
         imagen: "",
         horario: {
             "Jueves": "16:00 - 18:00"
-        }
+        }, 
+        mensualidad: "23,00"
     },
     {
         nombre: "Escuela CEIP Arrayanes",
@@ -44,7 +59,8 @@ const listaCentros: Centro[] = [
         horario: {
             "Grupo 1 Lunes y Miercoles": "16:00 - 17:30",
             "Grupo 2 Lunes y Miercoles": "17:30 - 19:00"
-        }
+        }, 
+        mensualidad: "23,00"
     },
         
 ];

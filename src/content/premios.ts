@@ -32,7 +32,7 @@ const listaPremios: Premio[] = [
     },
     {
         titulo: "Sydney 2000",
-        descripcion: "Tu historia en las Olimpiadas...",
+        descripcion: "Partici",
         link: ""
     },
 ];

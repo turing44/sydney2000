@@ -9,19 +9,7 @@ export interface Centro {
 
 const listaCentros: Centro[] = [
     {
-        nombre: "Escuela San Luis",
-        direccion: "C\\ San Luis nº 29",
-        linkMaps: "https://maps.app.goo.gl/4P6nqXr4RiHjBtMp8",
-        imagen: "",
-        horario: {
-            "Lunes y Miercoles": "16:00 - 17:30",
-            "Martes y Jueves": "16:00 - 17:30",
-            "Viernes": "16:00 - 18:00"
-        },
-        mensualidad: "26,50"
-    },
-    {
-        nombre: "Centro Deportivo Alcosa",
+        nombre: "Escuela - Centro Deportivo Alcosa",
         direccion: "Av. de Seneca, 1",
         linkMaps: "https://maps.app.goo.gl/V1f8S1pjUxeSXD1a9",
         imagen: "",
@@ -32,7 +20,7 @@ const listaCentros: Centro[] = [
         mensualidad: "25,00"
     },
     {
-        nombre: "Escuela San Pablo",
+        nombre: "Escuela - Centro Deportivo San Pablo",
         direccion: `Av. Doctor Laffón Soto`,
         linkMaps: "https://maps.app.goo.gl/WQXrsDgeRuALiPsM7",
         imagen: "",
@@ -40,16 +28,6 @@ const listaCentros: Centro[] = [
             "Lunes y Miercoles": "16:00 - 17:30",
         },
         mensualidad: "25,00"
-    },
-    {
-        nombre: "Escuela IES Miguel Servet",
-        direccion: "Calle Cueva de la Pileta S/N",
-        linkMaps: "https://maps.app.goo.gl/cF5FX4SvevUEVUfq9",
-        imagen: "",
-        horario: {
-            "Jueves": "16:00 - 18:00"
-        }, 
-        mensualidad: "23,00"
     },
     {
         nombre: "Escuela CEIP Arrayanes",
@@ -60,8 +38,43 @@ const listaCentros: Centro[] = [
             "Grupo 1 Lunes y Miercoles": "16:00 - 17:30",
             "Grupo 2 Lunes y Miercoles": "17:30 - 19:00"
         }, 
+        mensualidad: "25,00"
+    },
+    {
+        nombre: "Escuela - Centro Deportivo San Luis",
+        direccion: "C\\ San Luis nº 29",
+        linkMaps: "https://maps.app.goo.gl/4P6nqXr4RiHjBtMp8",
+        imagen: "",
+        horario: {
+            "Lunes y Miercoles": "16:00 - 17:30",
+            "Martes y Jueves": "16:00 - 17:30",
+            "Viernes": "16:00 - 18:00"
+        },
+        mensualidad: "27,00"
+    },
+    
+    {
+        nombre: "Escuela - Centro Deportivo San Jerónimo",
+        direccion: "Calle Medina y Galnares",
+        linkMaps: "https://maps.app.goo.gl/5ewuGiFNZi2BJFbU6",
+        imagen: "",
+        horario: {
+            "Martes y Jueves": "16:00 - 17:30",
+        }, 
+        mensualidad: "25,00"
+    },
+    
+    {
+        nombre: "Escuela IES Miguel Servet",
+        direccion: "Calle Cueva de la Pileta S/N",
+        linkMaps: "https://maps.app.goo.gl/cF5FX4SvevUEVUfq9",
+        imagen: "",
+        horario: {
+            "Jueves": "16:00 - 18:00"
+        }, 
         mensualidad: "23,00"
     },
+    
         
 ];
 

@@ -5,6 +5,8 @@ import sitemap from '@astrojs/sitemap';
 import netlify from '@astrojs/netlify';
 import path from 'path';
 
+import cloudflare from '@astrojs/cloudflare';
+
 export default defineConfig({
   alias: {
   
@@ -20,7 +22,7 @@ export default defineConfig({
 
 
   output: 'server', // o "static"
-  adapter: netlify(),
+  adapter: cloudflare(),
   integrations: [
     tailwind(),
     sitemap(),

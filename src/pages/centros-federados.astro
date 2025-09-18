@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import listaCentros from "@/content/centros";
+import listaCentros from "@/content/centros-federados";
 import Horario from "@/components/Sections/Horario.astro";
 
 
@@ -8,12 +8,13 @@ import Horario from "@/components/Sections/Horario.astro";
 
 <BaseLayout>
     <div class="flex flex-col">
-        <h1 class="text-center m-3 mt-6">Centros</h1>
+        <h1 class="text-center mb-4 mt-7">Centros Federados</h1>
+        <span class="text-center font-bold mb-4">Promesa - Precopa - Copa - Base</span>
         {
             listaCentros.map(centro => (
                 <div class="shadow-md m-3 bg-white rounded-xl flex flex-col">
                     <div class="m-2 p-6 w-auto text-left">
-                        <h2>{centro.nombre}</h2>
+                        <h2 class="mb-3">{centro.nombre}</h2>
                         <a href={centro.linkMaps}>📍 {centro.direccion}</a>   
                         <div class="mt-2 mb-4">
                             <Horario centro={centro}/>

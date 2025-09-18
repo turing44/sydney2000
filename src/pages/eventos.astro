@@ -1,0 +1,17 @@
+---
+import Evento from "@/components/Sections/Evento.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import listaEventos from "@content/eventos";
+---
+
+<BaseLayout>
+
+    {
+        listaEventos.map( evento => (
+            <Evento nombre={evento.nombre}
+                    descripcion={evento.descripcion}
+            />
+        ))
+    }
+  
+</BaseLayout>

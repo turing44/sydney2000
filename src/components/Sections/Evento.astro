@@ -1,0 +1,29 @@
+---
+import Image from "astro/components/Image.astro"
+
+const { nombre, descripcion, fecha, imagen } = Astro.props
+---
+
+
+<section class="py-16">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+            
+          <Image 
+            src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop&crop=center" 
+            alt="Worship at our church" 
+            class="rounded-lg shadow-lg object-cover w-full h-full"
+            width={300}
+            height={300}
+          />
+        </div>
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">{ nombre }</h2>
+          <p class="text-xl text-gray-700 mb-8"> { descripcion }</p>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>

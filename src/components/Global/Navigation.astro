@@ -4,7 +4,7 @@ const navItems = [
   { text: "Home", href: "/" },
   { text: "Escuelas", href: "/centros" },
   { text: "Centros Federados", href: "/centros-federados" },
-  { text: "Eventos", href: "/eventos" },
+  //{ text: "Eventos", href: "/eventos" },
 ];
 
 // Get the current URL path to highlight the active link
@@ -63,7 +63,7 @@ const currentPath = Astro.url.pathname;
       {
         navItems.map((item) => {
           const isActive = currentPath === item.href || 
-                           (item.href !== "/" && currentPath.startsWith(item.href));
+                           (item.href !== "/" && currentPath.startsWith(item.href + "/"));
           
           return (
             <a

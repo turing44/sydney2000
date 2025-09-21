@@ -14,8 +14,8 @@ const listaCentros: Centro[] = [
         linkMaps: "https://maps.app.goo.gl/V1f8S1pjUxeSXD1a9",
         imagen: "",
         horario: {
-            "Grupo 1 Lunes y Miercoles": "16:00 - 17:30",
-            "Grupo 2 Lunes y Miercoles": "17:30 - 19:00"
+            "Lunes y Miercoles": "16:30 - 19:30",
+            "Viernes": "16:00 - 19:00 (CEIP Arrayanes)"
         }, 
         mensualidad: "25,00"
     },    
@@ -25,7 +25,8 @@ const listaCentros: Centro[] = [
         linkMaps: "https://maps.app.goo.gl/5ewuGiFNZi2BJFbU6",
         imagen: "",
         horario: {
-            "Martes y Jueves": "16:00 - 17:30",
+            "Martes y Jueves": "16:00 - 19:00",
+            "Viernes" : "17:00 - 20:00 (CEIP Arrayanes)"
         }, 
         mensualidad: "25,00"
     },

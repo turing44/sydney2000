@@ -1,29 +1,30 @@
+//import imgtorneo from "/4_chicas_podio.jpeg";
 
 export interface Evento {
-    nombre: string,
-    descripcion: string,
-    imagen: string,
-    fecha: string,
+    nombre: string;
+    descripcion: string;
+    imagen: string | null;
+    fecha: string;
 }
 
 const listaEventos: Evento[] = [
     {
         nombre: "Torneo",
         descripcion: "Hacemos torneos todos los años",
-        imagen: "",
-        fecha:""
+        imagen: "/4_chicas_podio.jpeg",
+        fecha: ""
     },
     {
         nombre: "Masterclass",
-        descripcion: "Hacemos torneos todos los años",
-        imagen: "",
-        fecha:""
+        descripcion: "Una masterclass de la medallista Polina Berezina",
+        imagen: "/entrenadora_ensennando.jpeg",
+        fecha: ""
     },
     {
         nombre: "Gala de Navidad",
-        descripcion: "Hacemos torneos todos los años",
-        imagen: "",
-        fecha:""
+        descripcion: "Celebramos la gala anual de Navidad",
+        imagen: "/medallistas_suelo.jpeg",
+        fecha: ""
     },
 ];
 

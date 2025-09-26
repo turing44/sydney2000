@@ -5,13 +5,14 @@ import listaEventos from "@content/eventos";
 ---
 
 <BaseLayout>
-
-    {
-        listaEventos.map( evento => (
-            <Evento nombre={evento.nombre}
-                    descripcion={evento.descripcion}
-            />
-        ))
-    }
-  
+  {
+    listaEventos.map(evento => (
+      <Evento 
+        nombre={evento.nombre}
+        descripcion={evento.descripcion}
+        imagen={evento.imagen}
+        fecha={evento.fecha}
+      />
+    ))
+  }
 </BaseLayout>

@@ -6,6 +6,23 @@ export interface Premio {
 
 const listaPremios: Premio[] = [
     {
+        titulo: "Copa de Andalucía",
+        descripcion: "Tábata 3º puesto",
+        link: ""
+    },
+    {
+        titulo: "Copa de Andalucía",
+        descripcion: "Siria 3º puesto",
+        link: ""
+    },
+    {
+        titulo: "Copa de Andalucía",
+        descripcion: "Sofía 2º puesto",
+        link: ""
+    },
+    
+   
+    {
         titulo: "Monaco 2025",
         descripcion: "4 de 4 medallas de oro",
         link: "https://www.elcorreoweb.es/sevilla/2025/06/24/gimnasia-ritmica-sevillana-alcanza-mayor-119014521.html"

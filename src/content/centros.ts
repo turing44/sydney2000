@@ -8,7 +8,17 @@ export interface Centro {
 };
 
 const listaCentros: Centro[] = [
-    
+
+    {
+        nombre: "Escuela - Centro Deportivo San Jerónimo",
+        direccion: `Calle Medina y Galnares`,
+        linkMaps: "https://maps.app.goo.gl/5ewuGiFNZi2BJFbU6",
+        imagen: "",
+        horario: {
+            "Martes y Jueves": "16:00 - 17:30",
+        },
+        mensualidad: "25,00"
+    },
     {
         nombre: "Escuela - Centro Deportivo San Pablo",
         direccion: `Av. Doctor Laffón Soto`,

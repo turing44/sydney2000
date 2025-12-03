@@ -17,7 +17,7 @@ const listaCentros: Centro[] = [
             "Lunes y Miercoles": "16:30 - 19:30",
             "Viernes": "16:00 - 19:00 (CEIP Arrayanes)"
         }, 
-        mensualidad: "25,00"
+        mensualidad: "55,00"
     },    
     {
         nombre: "Escuela - Centro Deportivo San Jerónimo",
@@ -28,7 +28,7 @@ const listaCentros: Centro[] = [
             "Martes y Jueves": "16:00 - 19:00",
             "Viernes" : "17:00 - 20:00 (CEIP Arrayanes)"
         }, 
-        mensualidad: "25,00"
+        mensualidad: "55,00"
     },
     
         
